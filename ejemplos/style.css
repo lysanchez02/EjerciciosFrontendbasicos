@@ -1,0 +1,28 @@
+section{
+    background-color: whitesmoke;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+form{
+    text-align: center;    
+}
+input{
+    width: 200px;
+}
+label{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.genero{
+    width: 5%;
+}
+fieldset{
+    margin: auto;
+    width: 50%;
+    border-radius: 5px;
+}

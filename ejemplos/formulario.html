@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro</title>
+</head>
+<body>
+<section>
+    <h1>Registrate</h1>
+    <form action="">
+        <fieldset>
+            <legend>Datos Personales</legend>
+        <label for="nombre">Digite su nombre:<br>
+            <input id="nombre" type="text" placeholder="Ej: Leyder Sanchez">
+        </label><br>
+        <label for="email">Digite su email:<br>
+            <input id="email" type="email" placeholder="Ej: LeyderSanchez@gmail.com">
+        </label><br>
+        <label for="pass">Digite su Clave:<br>
+            <input id="pass" type="password" placeholder="Ej: lysb1999">
+        </label><br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Datos de usuario</legend>
+        <label>Seleccione su Genero:</label><br>
+            <input class="genero" id="masculino" type="radio" value="masculino" name="genero">Masculino
+            <input class="genero" id="femenino" type="radio" value="femenino" name="genero">Femenino
+            <input class="genero" id="otro" type="radio" value="otro" name="genero">Otro
+            <br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Seleccione su pais</legend>
+            <select name="" id="">
+                <option value="colombia" name="colombia">Colombia</option>
+                <option value="venezuela" name="venezuela">Venezuela</option>
+                <option value="chile" name="chile">Chile</option>
+                <option value="peru" name="peru">Peru</option>
+            </select><br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Adjuntar documento</legend>
+        <input type="file"><br>
+    </fieldset>
+    <button>Guardar</button>
+    </form>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+h1{
+    border: 1px solid white;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 0, 0);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: red;
+}
+@media screen and (max-width: 300px) {
+    body{
+    background-color: blue;
+    }
+}

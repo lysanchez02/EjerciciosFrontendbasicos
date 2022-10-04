@@ -1,0 +1,38 @@
+header{
+    border: 1px solid red;
+justify-content: center;
+display: flex;
+}
+section{
+    border: 2px solid green;
+}
+footer{
+    border: 2px solid yellow;
+}
+
+ul{
+    display: flex;
+    text-align: center;
+    padding: 0;
+}
+
+li{
+    padding: 30px;
+    list-style: none;
+}
+nav{
+    border: 2px solid blue;
+    display: flex;
+}
+img{
+    border: 1px solid red;
+    border-radius: 100px;
+    display: flex;
+}
+ h1{
+     text-align: center;
+ }
+ article{
+     display: flex;
+     text-align: center;
+ }

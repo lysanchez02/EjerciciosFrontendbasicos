@@ -1,0 +1,30 @@
+header{
+    display: flex;
+}
+h2{
+    text-align: center;
+}
+h1{
+    background-color: yellow;
+    text-align: center;
+}
+.barra{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    padding: 5px;
+}
+.empleos{
+    display: flex;
+    color: red;
+    justify-content: center;
+}
+.item{padding: 20px;}
+footer{
+    text-align: center;
+}
+table, thead, th, td, tr{
+    border: solid red;
+}

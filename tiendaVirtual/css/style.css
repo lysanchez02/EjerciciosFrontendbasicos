@@ -1,0 +1,52 @@
+*{
+    font-family: Helvetica;
+}
+.menuInicio{
+    display: flex;
+    border: 2px solid  black;
+}
+.tituloTienda{
+    color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 5px black;
+    background-color: black;
+    text-align: center;
+
+}
+.logo{
+    width: 5%;
+    margin: 10px;
+}
+.zapatos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.destacados{
+}
+.imgCatalogo{
+    width: 200px;
+}
+.catalogo{
+display: flex;
+justify-content: space-around;}
+
+.producto{
+    margin: 20px;
+    width: 500px;
+}
+article{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+}
+.itemInicio{
+    padding: 10px;
+}
+li{
+    list-style: none;
+}
